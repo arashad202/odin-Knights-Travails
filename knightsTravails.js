@@ -13,4 +13,8 @@ function knightMoves(start, end) {
   function isInsideBorad([x, y]) {
     return x >= 0 && x < 8 && y >= 0 && y < 8;
   }
+
+  // [direction, path]
+  const queue = [[start, [start]]];
+  const visited = new Set([start.toString()]);
 }

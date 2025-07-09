@@ -16,7 +16,7 @@ This is a simple JavaScript project that finds the **shortest path** a knight ca
 
 1. Make sure you have **Node.js** installed.
 2. Save the code in a file called `knightMoves.js`.
-3. Open your terminal and run:
+3. Open your terminal and run below command:
 
 ```bash
 node knightMoves.js
